@@ -1,0 +1,11 @@
+hypothesis:
+    max_examples: 1
+
+compiler:
+  solc:
+    version: 0.8.6
+    optimizer:
+        enabled: true
+        runs: 1000000000
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.1"
